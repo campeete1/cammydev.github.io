@@ -30,6 +30,7 @@
 
 body {
   background-color: #1e1e1d ;
+  margin: 0%;
 }
 
 h1, p, a {
@@ -151,5 +152,26 @@ div, .cam-img-box {
 .footer {
   background-color: #6d40ee;
   margin-top: 50px;
-margin-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.uLnav {
+display: flexbox;
+justify-content: space-between;
+}
+.uLnav {
+ align-items: center;
+}
+.logo, .cm-logo {
+  float: left;
+  max-height: 10px;
+}
+
+.cm-logo {
+  padding-left: 17.469;
+  padding-bottom: 17.469;
+}
+
+div.topnav {
+  align-items: baseline;
 }
